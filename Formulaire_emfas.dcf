@@ -1,0 +1,1469 @@
+﻿[Dictionary]
+Version=CSPro 7.7
+Label=Formulaire_emfas
+Name=FORMULAIRE_EMFAS_DICT
+RecordTypeStart=1
+RecordTypeLen=1
+Positions=Relative
+ZeroFill=No
+DecimalChar=Yes
+SecurityOptions=765394B8671572C1C4C8CF4B8CE47DE68D6D8390B0D2E3C7E178F406ADA6DE54
+
+[Level]
+Label=Formulaire_emfas Level
+Name=FORMULAIRE_EMFAS_LEVEL
+
+[IdItems]
+
+[Item]
+Label=Identification questionnaire
+Name=FORMULAIRE_EMFAS_ID
+Start=2
+Len=6
+DataType=Numeric
+
+[Record]
+Label=OPERATION COLLECTE
+Name=FORMULAIRE_EMFAS_REC
+RecordTypeValue='1'
+RecordLen=31
+
+[Item]
+Label=enqueteur:
+Name=O1
+Start=8
+Len=1
+DataType=Alpha
+
+[Item]
+Label=N° Questionnaire
+Name=O2
+Start=9
+Len=3
+DataType=Numeric
+
+[Item]
+Label=Contrôleur:
+Name=O3
+Start=12
+Len=2
+DataType=Alpha
+
+[Item]
+Label=Date de l'enquête(jj/mm/aaaa)
+Name=O4
+Start=14
+Len=10
+DataType=Numeric
+
+[Item]
+Label=Heure début de l'interview (hh/mm)
+Name=O5
+Start=24
+Len=4
+DataType=Numeric
+
+[Item]
+Label=Heure fin de l'interview (hh/mm)
+Name=O6
+Start=28
+Len=4
+DataType=Numeric
+
+[Record]
+Label=IDENTIFICATION DE L'UNITE
+Name=IDENTIFICATION
+RecordTypeValue='2'
+RecordLen=25
+
+[Item]
+Label=A.1-Région
+Name=A1
+Start=8
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=A.1-Région
+Name=A1_VS1
+Value=1;Dakar
+Value=2;Thiès
+Value=3;Fatick
+Value=4;Kaolack
+Value=5;Ziguinchor
+Value=6;Sedhiou
+Value=7;Kolda
+
+[Item]
+Label=A.2-Département
+Name=A2
+Start=10
+Len=3
+DataType=Numeric
+
+[ValueSet]
+Label=A.2-Département
+Name=A2_VS1
+Value=11;Dakar
+Value=12;Pikine
+Value=13;Rufisque
+Value=14;Guédiawaye
+Value=15;Keur Massar
+Value=21;Thiès
+Value=22;Tivaouane
+Value=23;Mbour
+Value=31;Fatick
+Value=32;Foundiougne
+Value=33;Gossas
+Value=41;Kaolack
+Value=42;Nioro du Rip
+Value=43;Guinguinéo
+Value=51;Ziguinchor
+Value=52;Bignona
+Value=53;Oussouye
+Value=61;Sédhiou
+Value=62;Bounkiling
+Value=63;Goudomp
+Value=71;Kolda
+Value=72;Vélingara
+Value=73;Médina Yoro Foulah
+
+[Item]
+Label=A.3-Commune
+Name=A3
+Start=13
+Len=6
+DataType=Numeric
+
+[ValueSet]
+Label=A.3-Commune
+Name=A3_VS1
+Value=320101;ADEANE
+Value=220104;AERE LAO
+Value=220405;AFFE DJOLOF
+Value=120101;AGNAM CIVOL
+Value=220103;AOURE
+Value=120101;BABA GARAGE
+Value=120201;BADEGNE OUOLOF
+Value=320102;BADION
+Value=120201;BAGADADJI
+Value=320303;BAGHERE
+Value=110100;BAKEL
+Value=320101;BALA
+Value=120201;BALINGHORE
+Value=120301;BALLOU
+Value=420101;BAMBA THIALENE
+Value=120301;BAMBALI
+Value=110100;BAMBEY
+Value=320201;BAMBYLOR
+Value=120101;BANDAFASSI
+Value=320301;BANI ISRAEL
+Value=310100;BARGNY
+Value=220101;BARKEDJI
+Value=220201;BASSOUL
+Value=120201;BELE
+Value=320102;BEMBOU
+Value=120201;BEMET-BIDJINI
+Value=320202;BIGNARABE
+Value=110100;BIGNONA
+Value=130122;BISCUITERIE
+Value=220404;BODE LAO
+Value=220101;BOGHAL
+Value=220201;BOKE DIALLOUBE
+Value=120102;BOKHOL
+Value=120201;BOKIDIAWE
+Value=220101;BOKILADJI
+Value=220201;BONA
+Value=220101;BONCONTO
+Value=220401;BOULAL
+Value=120101;BOULEL
+Value=210100;BOUNKILING
+Value=320203;BOUROUCO
+Value=320302;BOUTOUCOUFARA
+Value=320102;BOUTOUPA CAMARACOUNDA
+Value=320202;BOYNGUEL BAMBA
+Value=130144;CAMBERENE
+Value=320401;CHERIF LO
+Value=320101;COKI
+Value=320101;COLOBANE (Gossas)
+Value=210100;COM .BIRKELANE
+Value=110100;COM .KEDOUGOU
+Value=120203;COM .KIDIRA
+Value=110100;COM .MATAM
+Value=120301;COUBALAN
+Value=120202;COUMBACARA
+Value=220205;DABALY
+Value=120103;DABIA
+Value=120206;DABO
+Value=110100;DAGANA
+Value=210200;DAHRA
+Value=130112;DAKAR-PLATEAU
+Value=220101;DAKATELY
+Value=230124;DALIFORT
+Value=320201;DALLA NGABOU
+Value=220101;DANKH SENE
+Value=220201;DAR SALAM
+Value=320204;DARA MBOSS
+Value=320103;DAROU KHOUDOSS
+Value=120101;DAROU MARNANE
+Value=420101;DAROU MINAME
+Value=120102;DAROU MOUSTY
+Value=320107;DAROU NAHIM
+Value=220206;DAROU SALAM
+Value=320102;DAROU SALAM  TYP
+Value=220402;DEALY
+Value=220104;DEMBANCANE
+Value=220405;DEMETTE
+Value=320101;DENDEYE GOUY GUI
+Value=220202;DIACOUNDA
+Value=220103;DIAGANE BARKA
+Value=120105;DIAKHAO
+Value=220301;DIALACOTO
+Value=120204;DIALAMBERE
+Value=120201;DIAMA
+Value=120204;DIAMAGADIO
+Value=230133;DIAMAGUENE SICAP-MBAO
+Value=220103;DIAMAL
+Value=220302;DIAMBATI
+Value=320101;DIAMNIADIO
+Value=120107;DIANAH MALARY
+Value=320303;DIANKE MAKHA
+Value=420201;DIANKE SOUF
+Value=120103;DIANNAH BA
+Value=220305;DIAOUBE-KABENDOU
+Value=120101;DIAOULE
+Value=120401;DIARERE
+Value=220301;DIAROUME
+Value=120302;DIASS
+Value=320106;DIATTACOUNDA
+Value=120304;DIAWARA
+Value=120202;DIEGOUNE
+Value=220101;DIEMBERING
+Value=120101;DIENDE
+Value=220301;DIENDER
+Value=130126;DIEUPPEUL DERKLE
+Value=120201;DIMBOLI
+Value=120103;DINDEFELO
+Value=320301;DINGUIRAYE
+Value=120102;DINGUIRAYE
+Value=110200;DIOFFIOR
+Value=120201;DIOKOUL BELBOUCK
+Value=120202;DIOKOUL DIAWRIGNE
+Value=220202;DIONEWAR
+Value=220102;DIOSSONG
+Value=320304;DIOUBOUDOU
+Value=120101;DIOULACOLON
+Value=120404;DIOULOULOU
+Value=210100;DIOURBEL
+Value=120402;DIOUROUP
+Value=120203;DJIBABOUYA
+Value=320101;DJIBANAR
+Value=120101;DJIBIDIONE
+Value=230125;DJIDAH THIAROYE KAO
+Value=120204;DJILASSE
+Value=220101;DJILOR
+Value=120401;DJINACKY
+Value=220103;DJINANY
+Value=120302;DJIREDJI
+Value=220203;DJIRNDA
+Value=220401;DODEL
+Value=220201;DODJI
+Value=320201;DOUGUE
+Value=220102;DOUMGA LAO
+Value=120301;DYA
+Value=320201;ENAMPORE
+Value=220202;ETHIOLO
+Value=320101;FAFACOUROU
+Value=220301;FANAYE
+Value=220302;FANDENE
+Value=130115;FANN-POINT E-AMITIE
+Value=220303;FAOUNE
+Value=320105;FASS
+Value=320102;FASS NGOM
+Value=320102;FASS THIEKENE
+Value=110100;FATICK
+Value=120201;FIMELA
+Value=120101;FISSEL
+Value=120202;FONGOLIMBI
+Value=210100;FOUNDIOUGNE
+Value=120302;GABOU
+Value=220102;GADE ESCALE
+Value=120103;GAE
+Value=320201;GAGNICK
+Value=220201;GAINTE KAYE
+Value=320301;GAINTHE PATHE
+Value=220203;GALOYA TOUCOULEUR
+Value=220402;GAMADJI SARE
+Value=320201;GANDE
+Value=120304;GANDIAYE
+Value=320101;GANDON
+Value=220102;GASSANE
+Value=120101;GATHIARY
+Value=120201;GAWANE
+Value=120102;GNIBY
+Value=430111;GOLF SUD
+Value=220105;GOLLERE
+Value=130111;GOREE
+Value=310100;GOSSAS
+Value=310100;GOUDIRY
+Value=310100;GOUDOMP
+Value=320102;GOUMBAYEL
+Value=130121;GRAND DAKAR
+Value=130141;GRAND YOFF
+Value=220406;GUEDE CHANTIER
+Value=220403;GUEDE VILLAGE
+Value=120206;GUEOUL
+Value=320104;GUET ARDO
+Value=130114;GUEULE TAPEE-FASS-COLOBANE (DAKAR)
+Value=230126;GUINAW RAIL NORD
+Value=230127;GUINAW RAIL SUD
+Value=310100;GUINGUINEO
+Value=120104;GUIRO YERO BOCAR
+Value=220203;HAMADY HOUNARE
+Value=130124;HANN-BEL AIR
+Value=130123;HLM
+Value=320103;IDA MOURIDE
+Value=220203;INOR
+Value=520301;JAXAAY-PARCELLES
+Value=110100;JOAL-FADIOUTH
+Value=120203;KAB GAYE
+Value=320103;KAEL
+Value=110100;KAFFRINE
+Value=120402;KAFOUNTINE
+Value=420102;KAHENE
+Value=120103;KAHI
+Value=110200;KAHONE
+Value=220301;KAMB
+Value=220301;KANDIA
+Value=220304;KANDIAYE
+Value=220204;KANDION MANGANA
+Value=210100;KANEL
+Value=120301;KANENE NDIOB
+Value=110100;KAOLACK
+Value=320102;KAOUR
+Value=220305;KARANG POSTE
+Value=320201;KARANTABA
+Value=120203;KARTHIACK
+Value=120403;KATABA 1
+Value=120202;KATHIOTTE
+Value=220304;KAYAR
+Value=220101;KAYEMOR
+Value=110100;KEBEMER
+Value=320301;KELE GUEYE
+Value=320302;KEREWANE
+Value=120203;KEUR BAKA
+Value=220301;KEUR MABA DIAKHOU
+Value=220305;KEUR MADIABEL
+Value=220304;KEUR MANDONGO
+Value=520201;KEUR MASSAR NORD
+Value=520302;KEUR MASSAR SUD
+Value=220101;KEUR MBOUCKI
+Value=320202;KEUR MOMAR SARR
+Value=220303;KEUR MOUSSA
+Value=220104;KEUR NGALGOU
+Value=220301;KEUR SALOUM DIANE
+Value=220302;KEUR SAMBA GUEYE
+Value=120103;KEUR SAMBA KANE
+Value=120101;KEUR SOCE
+Value=220102;KEVOYE
+Value=420103;KHELCOM
+Value=320104;KHELCOM-BIRAME
+Value=210100;KHOMBOLE
+Value=320201;KHOSSANTO
+Value=320103;KOAR
+Value=110100;KOLDA
+Value=320202;KOLIBANTANG
+Value=320304;KOMOTI
+Value=320403;KOTHIARY
+Value=320201;KOUL
+Value=320204;KOULINTO
+Value=320401;KOULOR
+Value=410100;KOUMPENTOUM
+Value=310100;KOUNGHEUL
+Value=220306;KOUNKANE
+Value=320203;KOUSSAN
+Value=220101;KOUSSANAR
+Value=120104;KOUSSY
+Value=420201;KOUTHIA GUAYDI
+Value=420202;KOUTHIABA WOLOF
+Value=220202;LABGAR
+Value=120202;LAMBAYE
+Value=120201;LATMINGUE
+Value=320401;LEONA
+Value=210100;LINGUERE
+Value=220102;LINKERING
+Value=120302;LORO
+Value=310100;LOUGA
+Value=320101;LOUGRE THIOLY
+Value=120202;LOUL SESSENE
+Value=320201;LOUR ESCALE
+Value=310100;M’BACKE
+Value=220201;MABO
+Value=320104;MADINA
+Value=120102;MADINA FOULBE
+Value=220101;MADINA NDIATHBE
+Value=220304;MADINA WANDIFA
+Value=320302;MAKA YOP
+Value=220201;MAKACOLIBANTANG
+Value=410100;MALEM HODDAR
+Value=420205;MALEM NIANI
+Value=120301;MALICOUNDA
+Value=520202;MALIKA
+Value=120203;MAMPATIM
+Value=120204;MANGAGOULACK
+Value=320103;MANGAROUNGOU SANTO
+Value=110200;MARSASSOUM
+Value=120107;MBACKE CADIOR
+Value=320101;MBADAKHOUNE
+Value=120103;MBADIANE
+Value=220104;MBAM
+Value=120101;MBANE
+Value=230135;MBAO
+Value=320102;MBAR
+Value=320301;MBAYENE
+Value=320302;MBEDIENE
+Value=120102;MBELLACADIAO
+Value=220305;MBEULEUKHE
+Value=220203;MBEULEUP
+Value=220202;MBOLO BIRANE
+Value=320104;MBORO
+Value=320206;MBOSS
+Value=220302;MBOULA
+Value=220106;MBOUMBA
+Value=110200;MBOUR
+Value=130113;MEDINA
+Value=320101;MEDINA BAFFE
+Value=120205;MEDINA CHERIF
+Value=120102;MEDINA EL HADJ
+Value=220103;MEDINA GOUNASS (Vélingara)
+Value=430121;MEDINA GOUNASS (Guédiawaye)
+Value=220102;MEDINA SABAKH
+Value=310100;MEDINA YORO FOULAH
+Value=120203;MEDINATOUL SALAM 2
+Value=310100;MEKHE
+Value=320101;MEOUANE
+Value=420103;MERETO
+Value=320202;MERINA DAKHAR
+Value=130134;MERMOZ-SACRE COEUR
+Value=220103;MERY
+Value=220302;MISSIRAH (Tamba)
+Value=320202;MISSIRAH (Mbacké)
+Value=320202;MISSIRAH SIRIMANA
+Value=320303;MISSIRAH WADENE
+Value=220201;MLOMP (Oussouye)
+Value=120205;MLOMP (Bignona)
+Value=320402;MONT ROLLAND
+Value=120303;MOUDERY
+Value=320104;MPAL
+Value=120202;NABADJI CIVOL
+Value=420104;NDAME
+Value=120204;NDANDE
+Value=120301;NDANGALMA
+Value=220201;NDENDORY
+Value=120102;NDIAFFATE
+Value=120102;NDIAGANIAO
+Value=320105;NDIAGNE
+Value=320102;NDIAGO
+Value=220105;NDIAMACOUTA
+Value=220104;NDIAMALATHIEL
+Value=430122;NDIAREME LIMAMOULAYE
+Value=220302;NDIAYENE PEINDAO
+Value=120302;NDIEBEL
+Value=320103;NDIEBENE GANDIOLE
+Value=120103;NDIEDIENG
+Value=320201;NDIENE LAGANE
+Value=220201;NDIEYENE SIRAKH
+Value=220103;NDINDY
+Value=120103;NDIOB
+Value=420104;NDIOBENE SAMBA LAMO
+Value=220202;NDIOGNICK
+Value=210200;NDIOUM
+Value=420102;NDIOUM NGAINTH
+Value=320105;NDIOUMANE
+Value=120204;NDOFFANE
+Value=220202;NDOGA BABACAR
+Value=120104;NDOMBO SANDJIRY
+Value=120302;NDONDOL
+Value=320201;NDORNA
+Value=220201;NDOULO
+Value=120104;NDOYENE
+Value=220302;NDRAME ESCALE
+Value=220303;NEMATABA
+Value=220303;NETTEBOULOU
+Value=120205;NGANDA
+Value=320302;NGANDIOUF
+Value=120305;NGAPAROU
+Value=320103;NGATHIE NAOUDE
+Value=220103;NGAYENE
+Value=120301;NGAYOKHEME
+Value=320203;NGHAYE
+Value=120202;NGNITH
+Value=120203;NGOGOM
+Value=220202;NGOHE
+Value=130132;NGOR
+Value=220202;NGOUNDIANE
+Value=120305;NGOURANE OUOLOF
+Value=120303;NGOYE
+Value=120304;NGUEKHOKH
+Value=320202;NGUELOU
+Value=120201;NGUENIENE
+Value=320203;NGUER MALAL
+Value=320402;NGUEUNE SARR
+Value=320303;NGUIDILE
+Value=120104;NGUIDILOGNE
+Value=320301;NIAGHA
+Value=320103;NIAGUIS
+Value=120302;NIAKHAR
+Value=320303;NIAKHENE
+Value=320303;NIAMING
+Value=120302;NIAMONE
+Value=220303;NIANDANE
+Value=220203;NIANI TOUCOULEUR
+Value=220105;NIASSENE
+Value=320202;NIASSIA
+Value=120104;NINEFECHA
+Value=320304;NIOMRE
+Value=210100;NIORO
+Value=220303;NIORO ALASSANE TALL
+Value=220101;NOTTO
+Value=320403;NOTTO GOUYE DIAMA
+Value=220105;ODOBERE
+Value=120203;OGO
+Value=120102;OREFONDE
+Value=220102;ORKADIERE
+Value=320202;OUADIOUR
+Value=130131;OUAKAM
+Value=220106;OUAOUNDE
+Value=220203;OUARKHOH
+Value=220201;OUASSADOU
+Value=220203;OUBADJI
+Value=320103;OUDALAYE
+Value=120105;OUDOUCAR
+Value=220202;OUKOUT
+Value=120102;OULAMPANE
+Value=120303;OUONCK
+Value=110200;OUROSSOGUI
+Value=320203;OUROUR
+Value=210100;OUSSOUYE
+Value=220203;PAKOUR
+Value=120203;PALMARIN FACAO
+Value=320405;PAMBAL
+Value=320205;PANAL OUOLOF
+Value=220202;PAOSKOTO
+Value=130143;PARCELLES ASSAINIES
+Value=220202;PAROUMBA
+Value=420203;PASS KOTO
+Value=220106;PASSY
+Value=320304;PATA
+Value=120303;PATAR
+Value=220203;PATAR
+Value=320203;PATAR LIA
+Value=130142;PATTE D’OIE
+Value=420204;PAYAR
+Value=320203;PEKESSE
+Value=220204;PETE
+Value=320102;PETE OUARACK
+Value=230122;PIKINE EST
+Value=230123;PIKINE NORD
+Value=230121;PIKINE OUEST
+Value=320404;PIRE GOUREYE
+Value=210100;PODOR
+Value=120306;POPENGUINE
+Value=220203;POROKHANE
+Value=210200;POUT
+Value=310100;RANEROU
+Value=120204;REFANE
+Value=320202;RIBOT ESCALE
+Value=110200;RICHARD TOLL
+Value=120203;RONKH
+Value=120204;ROSS-BETHIO
+Value=120205;ROSSO
+Value=330112;RUFISQUE EST
+Value=330111;RUFISQUE NORD
+Value=330113;RUFISQUE OUEST
+Value=320203;SABODALA
+Value=120103;SADATOU
+Value=320301;SADIO
+Value=220403;SAGATTA DJOLOF
+Value=120303;SAGATTA GUETH
+Value=420202;SAGNA
+Value=310100;SAINT-LOUIS
+Value=320403;SAKAL
+Value=120102;SAKAR
+Value=210100;SALEMATA
+Value=120105;SALIKEGNE
+Value=320101;SALY ESCALE
+Value=120307;SALY PORTUDAL
+Value=430112;SAM NOTAIRE
+Value=120105;SAM YABAL
+Value=120106;SAMA KANTA PEULH
+Value=320107;SAMINE
+Value=120202;SAN SAMBA
+Value=120202;SANDIARA
+Value=320202;SANGALKAM
+Value=220102;SANTHIABA MANJACK
+Value=310100;SARAYA
+Value=120301;SARE BIDJI
+Value=220302;SARE COLY SALLE
+Value=120106;SARE YOBA DIEGA
+Value=320102;SEBIKOTANE
+Value=110100;SEDHIOU
+Value=220204;SEGRE-GATTA
+Value=220107;SEMME
+Value=310600;SENDOU
+Value=120203;SESSENE
+Value=120305;SIBASSOR
+Value=130125;SICAP LIBERTE
+Value=320104;SIMBADI BALANTE
+Value=320302;SIMBANDI BRASSOU
+Value=120303;SINDIA
+Value=120103;SINDIAN
+Value=220104;SINTHIANG KOUNDARA
+Value=220204;SINTHIOU BAMAMBE-BANADJI
+Value=320402;SINTHIOU BOCAR ALI
+Value=120202;SINTHIOU FISSA
+Value=220102;SINTHIOU MALEME
+Value=320204;SINTHIOU MAMADOU BOUBOU
+Value=210200;SOKONE
+Value=120308;SOMONE
+Value=220107;SOUM
+Value=120104;SUELLE
+Value=320204;SYER
+Value=220105;TAIBA MOUTOUPHA
+Value=320102;TAIBA NDIAYE
+Value=220204;TAÏBA NIASSENE
+Value=320108;TAIBA TIECKENE
+Value=320302;TAÏF
+Value=210100;TAMBACOUNDA
+Value=320305;TANAFF
+Value=120103;TANKANTO ESCALE
+Value=220102;TANKON
+Value=220102;TASSETE
+Value=120403;TATTAGUINE
+Value=120304;TENGHORI
+Value=220303;TESSEKRE FORAGE
+Value=120204;THIADIAYE
+Value=120304;THIAKAR
+Value=320103;THIAMENE
+Value=220404;THIAMENE PASSE
+Value=120202;THIARE
+Value=120104;THIARE NDIALGUI
+Value=220103;THIARNY
+Value=230134;THIAROYE GARE
+Value=230131;THIAROYE SUR MER
+Value=220104;THIEL
+Value=220203;THIENABA
+Value=120205;THIEPPE
+Value=230121;THIES EST
+Value=230111;THIES NORD
+Value=230122;THIES OUEST
+Value=120302;THIETTY
+Value=320304;THILMAKHA
+Value=120105;THILOGNE
+Value=120304;THIOLOM FALL
+Value=120303;THIOMBY
+Value=110200;THIONCK-ESSYL
+Value=310200;TIVAOUANE
+Value=320203;TIVAOUANE PEULH-NIAGHA
+Value=230132;TIVAOUANE-DIACKSAO
+Value=220204;TOCKY GARE
+Value=120102;TOMBORONCOTO
+Value=320204;TOUBA FALL
+Value=220106;TOUBA LAPPE
+Value=220102;TOUBA MBELLA
+Value=320106;TOUBA MBOUL
+Value=120106;TOUBA MERINA
+Value=320205;TOUBA MOSQUEE
+Value=220204;TOUBA TOUL
+Value=220304;TOUBACOUTA
+Value=120104;TOUMBOURA
+Value=220205;TOURE MBONDE
+Value=210100;VELINGARA
+Value=320102;VELINGARA
+Value=220303;WACK NGOUNA
+Value=430123;WAKHINANE NIMZATT
+Value=220107;WALALDE
+Value=220202;WOURO SIDY
+Value=220304;YANG YANG
+Value=320105;YARANG BALANTE
+Value=320103;YENE
+Value=520101;YEUMBEUL NORD
+Value=520102;YEUMBEUL SUD
+Value=130133;YOFF
+Value=310100;ZIGUINCHOR
+Value=999999;Ne sait pas
+Value=888888;A l'étranger
+
+[Item]
+Label=A.4-Adresse complète de l'unité
+Name=A4
+Start=19
+Len=1
+DataType=Alpha
+
+[Item]
+Label=A.5-Relevé GPS de l'unité
+Name=A5
+Start=20
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=A.5-Relevé GPS de l'unité
+Name=A5_VS1
+Value=1;Capter le signal GPS
+
+[ValueSet]
+Label=Signal GPS
+Name=A5_VS2
+Value=3;Capter le signal GPS à nouveau
+Value=4;Continuer sans capter le GPS
+
+[Item]
+Label=A.6-Prénom et Nom du propriétaire/responsable moral
+Name=A6
+Start=21
+Len=1
+DataType=Alpha
+
+[Item]
+Label=A.7-Adresse complète du propriétaire/responsable moral
+Name=A7
+Start=22
+Len=1
+DataType=Alpha
+
+[Item]
+Label=A.8-Prénom et Nom du répondant:
+Name=A8
+Start=23
+Len=1
+DataType=Alpha
+
+[Item]
+Label=A.9-Fonction/Qualité du répondant
+Name=A9
+Start=24
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=A.9-Fonction/Qualité du répondant
+Name=A9_VS1
+Value=1;Proprétaire
+Value=2;Responsable moral
+Value=3;Gérant
+Value=4;Associé
+Value=5;Comptable/Trésorier
+Value=6;Autres à préciser
+
+[Item]
+Label=A.10 -Numéro de téléphone du Répondant
+Name=A10
+Start=25
+Len=1
+DataType=Numeric
+
+[Record]
+Label=CARACTERISTIQUES DE L'UNITE
+Name=CARACTERISTIQUE
+RecordTypeValue='3'
+RecordLen=126
+
+[Item]
+Label=B.1 - Votre entité intervient-elle dans le ces filières de l'anacarde?Si oui, donnez l'année de démarrage de l'activité.
+Name=B1
+Start=8
+Len=4
+DataType=Numeric
+
+[Item]
+Label=B.1.1 -  Production(détenteur d'un champ d'anacarde)
+Name=B1_1_PROD
+Start=12
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=B.1.1 -  Production(détenteur d'un champ d'anacarde)
+Name=B1_1_PROD_VS1
+Value=1;Oui
+Value=2;Non
+
+[Item]
+Label=B.1.1 -  Années de démarrage de l'activité: Production(dérenteur d'un champ d'anacarde)
+Name=B1_1_ANNEE
+Start=13
+Len=4
+DataType=Numeric
+
+[Item]
+Label=B.1.2 - Production(non détenteur de champs/cueillette)
+Name=B1_2_PROD
+Start=17
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=B.1.2 - Production(non détenteur de champs/cueillette)
+Name=B1_2_PROD_VS1
+Value=1;Oui
+Value=2;Non
+
+[Item]
+Label=B.1.2 -  Années de démarrage de l'activité: Production(non détenteur d'un champ d'anacarde)
+Name=B1_2_ANNEE_PROD
+Start=18
+Len=4
+DataType=Numeric
+
+[Item]
+Label=B.1.3 - Transformation
+Name=B1_3_TRANSF
+Start=22
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=B.1.3 - Transformation
+Name=B1_3_TRANSF_VS1
+Value=1;Oui
+Value=2;Non
+
+[Item]
+Label=B.1.3 -  Années de démarrage de l'activité: Transformation
+Name=B1_3_ANNEE_TRANS
+Start=23
+Len=1
+DataType=Numeric
+
+[Item]
+Label=B.1.4 - Commerce
+Name=B1_4_COMM
+Start=24
+Len=1
+DataType=Numeric
+
+[Item]
+Label=B.1.4 - Années de démarrage de l'activité: Commerce
+Name=B1_4_ANNEE_COM
+Start=25
+Len=1
+DataType=Numeric
+
+[Item]
+Label=B.2 - Quelle est la forme juridique de l'unité?
+Name=B2_FORM_JURID
+Start=26
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=B.2 - Quelle est la forme juridique de l'unité?
+Name=B2_FORM_JURID_VS1
+Value=1;Personne morale
+Value=2;Personne physique
+
+[Item]
+Label=B.3 - Quel est el régime juridique de l'unité?
+Name=B3_REGIME_JURID
+Start=27
+Len=2
+DataType=Numeric
+
+[ValueSet]
+Label=B.3 - Quel est el régime juridique de l'unité?
+Name=B3_REGIME_JURID_VS1
+Value=1;Entreprise Individuelle(Personne Physique)
+Value=2;Société Unipersonnelle à responsabilité Limitée(SUARL)
+Value=3;Société Anonyme Unipersonnelle(SAU)
+Value=4;Société Anonyme(SA)
+Value=5;Société à Responsabilité Limitée(SARL)
+Value=6;Groupement d'intérêt Economique(GIE)
+Value=7;Association/Fédération/Coopérative
+Value=99;Autres formes juridiques (à préciser)
+
+[Item]
+Label=B.4.1 - Dénomination ou raison sociale
+Name=B4_1_DENOMINATION
+Start=29
+Len=1
+DataType=Alpha
+
+[Item]
+Label=B.4.2 - Sigle ou enseigne commercial
+Name=B4_2_SIGLE
+Start=30
+Len=1
+DataType=Alpha
+
+[Item]
+Label=B.4.3 - Prénom et Nom du dirigeant de l'unité
+Name=B4_3_DIRIGEANT
+Start=31
+Len=1
+DataType=Alpha
+
+[Item]
+Label=B.4.4 - Sexe du dirigeant de l'unité
+Name=B4_4_SEXE
+Start=32
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=B.4.4 - Sexe du dirigeant de l'unité
+Name=B4_4_SEXE_VS1
+Value=1;Homme
+Value=2;Femme
+
+[Item]
+Label=B.4.5 - Age du dirigeant de l'unité
+Name=B4_5_AGE
+Start=33
+Len=3
+DataType=Numeric
+
+[Item]
+Label=B.4.6 - L'entreprise a-t-elle des associés?
+Name=B4_6_ASSOCIE
+Start=36
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=B.4.6 - L'entreprise a-t-elle des associés?
+Name=B4_6_ASSOCIE_VS1
+Value=1;Oui
+Value=2;Non
+
+[Item]
+Label=B.4.6.1 - L'entreprise a-t-elle des associés? Personne Physique ?
+Name=B4_6_1
+Start=37
+Len=4
+DataType=Numeric
+
+[Item]
+Label=B.4.6.1.1.1 - Nombre d'hommes Sénégalais
+Name=B4_6_1_1_1
+Start=41
+Len=4
+DataType=Numeric
+
+[Item]
+Label=B.4.6.1.1.2 - Part(%) d'homme sénégalais
+Name=B4_6_1_1_2
+Start=45
+Len=3
+DataType=Numeric
+
+[Item]
+Label=B.4.6.1.2.1 - Nombre de femmes Sénégalais
+Name=B4_6_1_2_1
+Start=48
+Len=4
+DataType=Numeric
+
+[Item]
+Label=B.4.6.1.2.2 Part(%) de femmes Sénégalais
+Name=B4_6_1_2_2
+Start=52
+Len=3
+DataType=Numeric
+
+[Item]
+Label=B.4.6.1.1.1 - Nombre d'hommes Etranger
+Name=B4_6_1_3_1
+Start=55
+Len=4
+DataType=Numeric
+
+[Item]
+Label=B.4.6.1.1.2 - Part(%) d'homme Etranger
+Name=B4_6_1_3_2
+Start=59
+Len=3
+DataType=Numeric
+
+[Item]
+Label=B.4.6.1.2.1 - Nombre de femmes Etranger
+Name=B4_6_1_4_1
+Start=62
+Len=4
+DataType=Numeric
+
+[Item]
+Label=B.4.6.1.2.2 - Part(%) de femmes Etranger
+Name=B4_6_1_4_2
+Start=66
+Len=3
+DataType=Numeric
+
+[Item]
+Label=B.4.6.2 - L'entreprise a-t-elle des associés? Personne morale ?
+Name=B4_6_2
+Start=69
+Len=4
+DataType=Numeric
+
+[Item]
+Label=B.4.6.2.1 - Nombre Sénégalais
+Name=B4_6_2_1
+Start=73
+Len=4
+DataType=Numeric
+
+[Item]
+Label=B.4.6.2.2 - Part(%) de Sénégalais
+Name=B4_6_2_2
+Start=77
+Len=3
+DataType=Numeric
+
+[Item]
+Label=B.4.6.3.1 - Nombre d'Etranger
+Name=B4_6_3_1
+Start=80
+Len=4
+DataType=Numeric
+
+[Item]
+Label=B4.6.3.2 - Part(%) d'Etranger
+Name=B4_6_3_2
+Start=84
+Len=3
+DataType=Numeric
+
+[Item]
+Label=B.4.7 - Combien de membres selon le sexe compte votre organisation ?
+Name=B4_7
+Start=87
+Len=3
+DataType=Numeric
+
+[Item]
+Label=B.4.7.1 - Nombre d'Homme
+Name=B4_7_1
+Start=90
+Len=4
+DataType=Numeric
+
+[Item]
+Label=B.4.7.2 - Nombre de Femme
+Name=B4_7_2
+Start=94
+Len=4
+DataType=Numeric
+
+[Item]
+Label=B.5.1 - Prénom et Nom du propriétaire de l'unité
+Name=B5_1
+Start=98
+Len=1
+DataType=Alpha
+
+[Item]
+Label=B.5.2 - Sigle ou enseigne commerciale
+Name=B5_2
+Start=99
+Len=1
+DataType=Alpha
+
+[Item]
+Label=B.5.3 - Sexe du proprétaire de l'unité
+Name=B5_3
+Start=100
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=B.5.3 - Sexe du proprétaire de l'unité
+Name=B5_3_VS1
+Value=1;Homme
+Value=2;Femme
+
+[Item]
+Label=B.5.4 - Age du propriétaire de l'unité
+Name=B5_4
+Start=101
+Len=3
+DataType=Numeric
+
+[Item]
+Label=B.5.5 - Nationalité du propriétaire de l'unité
+Name=B5_5
+Start=104
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=B.5.5 - Nationalité du propriétaire de l'unité
+Name=B5_5_VS1
+Value=1;Sénégalaise
+Value=2;Gambienne
+Value=3;Bissau Guinéenne
+Value=4;Guinéenne
+Value=5;Autres nationalités africaines
+Value=6;Européennes
+Value=7;Américaines
+Value=8;Asiatiques
+Value=9;Océaniques
+
+[Item]
+Label=B.5.6 - Type/Niveau d'instruction du propriétaire de l'unité
+Name=B5_6
+Start=105
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=B.5.6 - Type/Niveau d'instruction du propriétaire de l'unité
+Name=B5_6_VS1
+Value=1;Aucun
+Value=2;Primaire
+Value=3;Secondaire
+Value=4;Supérieur
+Value=5;Ecole Coranique
+Value=6;Alphabétisation en langue locale
+Value=7;Autre à préciser
+
+[Item]
+Label=B.6 - Votre structure est-elle membre d'une organisation professionnelle d'anacarde ?
+Name=B6
+Start=106
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=B.6 - Votre structure est-elle membre d'une organisation professionnelle d'anacarde ?
+Name=B6_VS1
+Value=1;Oui
+Value=2;Non
+
+[Item]
+Label=B.6.1 - Si oui, combien d'organisations professionnelles d'anacarde votre structure est-elle membre ?
+Name=B6_1
+Start=107
+Len=2
+DataType=Numeric
+
+[Item]
+Label=B.6.2 - Citer les deux les plus importantes(les structures où la personne est plus impliquée)
+Name=B6_2
+Start=109
+Len=1
+DataType=Alpha
+
+[Item]
+Label=B.6.2.1 - Nom de l'organisation professionnelle
+Name=B6_2_1
+Start=110
+Len=1
+DataType=Alpha
+
+[ValueSet]
+Label=B.6.2.1 - Nom de l'organisation professionnelle
+Name=B6_2_1_VS1
+Value=1;GIE
+Value=2;Coopérative
+Value=3;Association
+Value=4;Fédération
+Value=5;Autre à préciser
+
+[Item]
+Label=B.6.2.2 - Type de l'organisation professionnelle
+Name=B6_2_2
+Start=111
+Len=1
+DataType=Numeric
+
+[Item]
+Label=B.7 - Votre structure dispose-t-elle d'un NINEA/NINET
+Name=B7
+Start=112
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=B.7 - Votre structure dispose-t-elle d'un NINEA/NINET
+Name=B7_VS1
+Value=1;Oui
+Value=2;Non
+
+[Item]
+Label=B.7.1 - Si oui, donner le numéro du NINEA/NINET
+Name=B7_1
+Start=113
+Len=12
+DataType=Numeric
+
+[Item]
+Label=B.8 - Votre structure tient-elle une comptabilité ?
+Name=B8
+Start=125
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=B.8 - Votre structure tient-elle une comptabilité ?
+Name=B8_VS1
+Value=1;Oui
+Value=2;Non
+
+[Item]
+Label=B.8.1 - Sous quel système votre comptabilité est-elle tenue ?
+Name=B8_1
+Start=126
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=B.8.1 - Sous quel système votre comptabilité est-elle tenue ?
+Name=B8_1_VS1
+Value=1;Sustème comptable Ouest africain (SYSCOA)
+Value=2;Système de Comptabilité harmonisé autre que le SYSCOA
+Value=3;Comptabilité non formelle (utilisation de carnets, Excel)
+
+[Record]
+Label=PRODUCTION ET VENTE
+Name=PRODUCT_VENTE
+RecordTypeValue='4'
+RecordLen=178
+
+[Item]
+Label=C.1.1 - Quelle quantité d'anacarde a été produite par votre unité en :
+Name=C1_1
+Start=8
+Len=1
+DataType=Numeric
+
+[Item]
+Label=C.1.1.1 - Quantité Production en 2021
+Name=QUANT_2021
+Start=9
+Len=8
+DataType=Numeric
+
+[Item]
+Label=C.1.1.1 - Unité Production en 2021
+Name=UNIT_2021
+Start=17
+Len=1
+DataType=Numeric
+
+[Item]
+Label=C.1.1.1 - Prix de vente moyen unitaire Production en 2021
+Name=PRIX_2021
+Start=18
+Len=6
+DataType=Numeric
+
+[Item]
+Label=C.1.1.1 - Montant total des ventes Production en 2021
+Name=MT_2021
+Start=24
+Len=9
+DataType=Numeric
+
+[Item]
+Label=C.1.1.1 - Quantité Production en 2022
+Name=QUANT_2022
+Start=33
+Len=8
+DataType=Numeric
+
+[Item]
+Label=C.1.1.1 - Unité Production en 2022
+Name=UNIT_2022
+Start=41
+Len=1
+DataType=Numeric
+
+[Item]
+Label=C.1.1.1 - Prix de vente moyen unitaire Production en 2022
+Name=PRIX_2022
+Start=42
+Len=6
+DataType=Numeric
+
+[Item]
+Label=C.1.1.1 - Montant total des ventes Production en 2022
+Name=MT_2022
+Start=48
+Len=9
+DataType=Numeric
+
+[Item]
+Label=C.1.1.1 - Quantité Production en 2023
+Name=QUANT_2023
+Start=57
+Len=8
+DataType=Numeric
+
+[Item]
+Label=C.1.1.1 - Unité Production en 2023
+Name=UNIT_2023
+Start=65
+Len=1
+DataType=Numeric
+
+[Item]
+Label=C.1.1.1 - Prix de vente moyen unitaire Production en 2023
+Name=PRIX_2023
+Start=66
+Len=6
+DataType=Numeric
+
+[Item]
+Label=C.1.1.1 - Montant total des ventes Production en 2023
+Name=MT_2023
+Start=72
+Len=9
+DataType=Numeric
+
+[Item]
+Label=C.1.1.1 - Quantité Cueilette en 2021
+Name=QUANT_20211
+Start=81
+Len=8
+DataType=Numeric
+
+[Item]
+Label=C.1.1.1 - Unité Cueillette en 2021
+Name=UNIT_20211
+Start=89
+Len=1
+DataType=Numeric
+
+[Item]
+Label=C.1.1.1 - Prix de vente moyen unitaire Cueillette en 2021
+Name=PRIX_20211
+Start=90
+Len=6
+DataType=Numeric
+
+[Item]
+Label=C.1.1.1 - Montant total des ventes Cueillette en 2021
+Name=MT_20211
+Start=96
+Len=9
+DataType=Numeric
+
+[Item]
+Label=C.1.1.1 - Quantité Cueillette en 2022
+Name=QUANT_20221
+Start=105
+Len=8
+DataType=Numeric
+
+[Item]
+Label=C.1.1.1 - Unité Cueillette en 2022
+Name=UNIT_20221
+Start=113
+Len=1
+DataType=Numeric
+
+[Item]
+Label=C.1.1.1 - Prix de vente moyen unitaire Cueillette en 2022
+Name=PRIX_20221
+Start=114
+Len=6
+DataType=Numeric
+
+[Item]
+Label=C.1.1.1 - Montant total des ventes Cueillette en 2022
+Name=MT_20221
+Start=120
+Len=9
+DataType=Numeric
+
+[Item]
+Label=C.1.1.1 - Quantité Cueillette en 2023
+Name=QUANT_20231
+Start=129
+Len=8
+DataType=Numeric
+
+[Item]
+Label=C.1.1.1 - Unité Cueillette en 2023
+Name=UNIT_20231
+Start=137
+Len=1
+DataType=Numeric
+
+[Item]
+Label=C.1.1.1 - Prix de vente moyen unitaire Cueillette en 2023
+Name=PRIX_20231
+Start=138
+Len=6
+DataType=Numeric
+
+[Item]
+Label=C.1.1.1 - Montant total des ventes Cueillette en 2023
+Name=MT_20231
+Start=144
+Len=9
+DataType=Numeric
+
+[Item]
+Label=C.1.2 - A combien estimez-vous votre production d'anacarde en 2024 ?
+Name=C_1_2
+Start=153
+Len=1
+DataType=Numeric
+
+[Item]
+Label=C.1.2.1 - Quantité en 2024
+Name=C_1_2_1
+Start=154
+Len=9
+DataType=Numeric
+
+[Item]
+Label=C.1.2.2 - Unité en 2024
+Name=C_1_2_2
+Start=163
+Len=1
+DataType=Numeric
+
+[Item]
+Label=C.1.2.3 - Prix de vente en 2024
+Name=C_1_2_3
+Start=164
+Len=6
+DataType=Numeric
+
+[Item]
+Label=C.1.3 - Comment est utilisée votre production en 2021, 2022, et 2023 ?
+Name=C_1_3
+Start=170
+Len=1
+DataType=Numeric
+
+[ValueSet]
+Label=C.1.3 - Comment est utilisée votre production en 2021, 2022, et 2023 ?
+Name=C_1_3_VS1
+Value=1;Oui
+Value=2;Non
+
+[Item]
+Label=C.1.3.1 - Autoconsommation et don
+Name=C_1_3_1
+Start=171
+Len=1
+DataType=Numeric
+
+[Item]
+Label=C.1.3.1 -  Autoconsommation et don : Quantité
+Name=C_1_3_1_QUANT
+Start=172
+Len=6
+DataType=Numeric
+
+[Item]
+Label=C.1.3.1 - Autoconsommation et don : Unité
+Name=C_1_3_1_UNIT
+Start=178
+Len=1
+DataType=Numeric
